@@ -1,5 +1,13 @@
 # Getting Started Guide
 
+	以下是官网给出的说明，需要说明以下，由于官网的demo当初使用版本过低，导致中间出现各种加载错误，以及cocos2d-x版本不同导致相关的文件命名规则变化，故此加载ShareSDK怎么添加也找不到。相关平台库我没有放到ios下,而是添加framework文件夹下。
+	可能出现的错误:1. cocos2d-x/GUI/* 相关文件丢失其他错误类似                     注:全部重新删掉，再重新加载
+				 2. ShareSDK相关的库丢失，虽然在目录下,但是加载仍然是红色提示        注:加载framework目录下
+				 3. 相关function Method报undefined等错误                       注:3与4差不多的解决方案,主要就是找不到相关文件
+				 4. __***错误，记不清了
+				 
+				 以上这些错误在下载完官网提供的demo后需要大家解决。可能根据版本不同，有些错误我没遇到。
+
 ## Step1: Download the cocos2d-x components of the ShareSDK
 
 Open Github download the [C2DXShareSDKSample](https://github.com/ShareSDKPlatform/C2DXShareSDKSample/archive/master.zip) projects. The project C2DXShareSDK folder copy to your project.
